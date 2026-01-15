@@ -32,6 +32,10 @@ Bem-vindo ao meu portfólio pessoal! Este projeto está sendo desenvolvido como 
 - ✅ Estrutura para Skills, Formação e Projetos
 - ✅ Ícones do Font Awesome nas seções
 - ✅ Container responsivo para vídeo com aspect-ratio
+- ✅ Sistema de barras de progresso para skills
+- ✅ Hard skills implementadas (HTML5, CSS3, Python, Dart, Excel, Figma, Flutter, SQL, R, Scikit-learn, UX/UI Design)
+- ✅ Soft skills implementadas (Comunicação, Trabalho em Equipe, Resolução de Problemas, Adaptabilidade, Pensamento Crítico, Gestão de Tempo, Liderança, Criatividade)
+- ✅ Ícones personalizados para cada skill
 - 🔨 Interface "Em breve" temporária
 
 ## 🛠️ Tecnologias Utilizadas
@@ -73,6 +77,9 @@ projeto-portifolio/
    - Ou usar um servidor local como Live Server (extensão do VS Code)
 
 ## 💡 Funcionalidades
+
+### Skills Interativas
+Seção de skills com barras de progresso visuais que exibem proficiência em hard skills (tecnologias como HTML5, CSS3, Python, Dart, etc.) e soft skills (Comunicação, Trabalho em Equipe, Liderança, etc.).
 
 ### Alternância de Tema
 O portfólio possui um botão para alternar entre tema claro e escuro. A preferência do usuário é salva no navegador para futuras visitas.
