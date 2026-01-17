@@ -38,6 +38,8 @@ Bem-vindo ao meu portfólio pessoal! Este projeto está sendo desenvolvido como 
 - ✅ Ícones personalizados para cada skill
 - ✅ Seção de formação acadêmica e certificações profissionais
 - ✅ Certificados profissionais adicionados (EBAC UX/UI Design, Google UX/UI Design via Coursera, Google Análise de Dados, Microsoft Análise de Dados via LinkedIn Learning)
+- ✅ Menu de navegação com ícones Font Awesome (Home, Skills, Formação, Projetos, Tema)
+- ✅ Navegação simplificada com ícones visuais
 - 🔨 Interface "Em breve" temporária
 
 ## 🛠️ Tecnologias Utilizadas
