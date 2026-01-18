@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu portfólio pessoal! Este projeto está sendo desenvolvido como projeto final do curso de HTML5 e CSS3 do Curso em Vídeo, com o objetivo de apresentar meus projetos, habilidades e experiências profissionais de forma moderna e interativa.
 
-> **Status do Projeto**: 🚧 Em desenvolvimento inicial
+> **Status do Projeto**: 🚧 Em desenvolvimento
 
 ## ✨ Características Planejadas
 
@@ -14,7 +14,7 @@ Bem-vindo ao meu portfólio pessoal! Este projeto está sendo desenvolvido como 
 
 ## 🔄 Desenvolvimento Atual
 
-### Versão 0.1.0 (Janeiro 2026)
+### Versão 0.2.0 (Janeiro 2026)
 - ✅ Estrutura HTML básica implementada
 - ✅ Arquivo CSS com estilos iniciais
 - ✅ Favicon customizado com estilo SVG
@@ -42,7 +42,13 @@ Bem-vindo ao meu portfólio pessoal! Este projeto está sendo desenvolvido como 
 - ✅ Navegação simplificada com ícones visuais
 - ✅ Header sticky (fixo no topo) durante a rolagem da página
 - ✅ Navegação funcional com links âncora para seções
-- 🔨 Interface "Em breve" temporária
+- ✅ **Layout desktop responsivo com sidebar fixa** - Grid de 4 colunas (auto 300px 1fr auto) para telas ≥768px
+- ✅ **Sidebar sticky** - Seção de perfil fica fixa ao rolar a página em desktop
+- ✅ **Tema escuro implementado** - Alternância entre tema claro e escuro com transições suaves
+- ✅ **Sistema de cores para tema escuro** - Paleta otimizada para visualização noturna
+- ✅ **Transições suaves entre temas** - Mudança de cores com animação de 0.2s
+- ✅ **Botão de tema funcional** - Ícone de lua/sol para alternar temas
+- ✅ **Estilização aprimorada do menu** - Links consistentes com classe "link"
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -84,6 +90,14 @@ projeto-portifolio/
 
 ## 💡 Funcionalidades
 
+### Layout Responsivo com Grid CSS
+Sistema de grid avançado que adapta automaticamente o layout para diferentes tamanhos de tela:
+- **Mobile (<768px)**: Layout em coluna única centralizada com 90vw
+- **Desktop (≥768px)**: Grid de 4 colunas (auto 300px 1fr auto) com sidebar fixa e conteúdo fluido
+
+### Sidebar Sticky em Desktop
+Em telas maiores, a seção de perfil permanece fixa no topo durante a rolagem, mantendo informações importantes sempre visíveis.
+
 ### Skills Interativas
 Seção de skills com barras de progresso visuais que exibem proficiência em hard skills (tecnologias como HTML5, CSS3, Python, Dart, etc.) e soft skills (Comunicação, Trabalho em Equipe, Liderança, etc.).
 
@@ -93,8 +107,8 @@ Apresentação da formação acadêmica completa e certificações profissionais
 - Certificações em UX/UI Design (EBAC, Google/Coursera)
 - Certificações em Análise de Dados (Google, Microsoft/LinkedIn Learning)
 
-### Alternância de Tema
-O portfólio possui um botão para alternar entre tema claro e escuro. A preferência do usuário é salva no navegador para futuras visitas.
+### Alternância de Tema Claro/Escuro
+O portfólio possui um botão para alternar entre tema claro e escuro com transições suaves. A preferência do usuário será salva no navegador para futuras visitas (funcionalidade JavaScript em desenvolvimento).
 
 ### Navegação Suave
 Os links de navegação possuem scroll suave, proporcionando uma experiência de usuário mais agradável ao navegar entre as seções.
@@ -104,12 +118,21 @@ Os links de navegação possuem scroll suave, proporcionando uma experiência de
 ### Cores do Tema
 As cores podem ser facilmente personalizadas editando as variáveis CSS no arquivo `style.css`:
 
-- `--fundo-principal`: Cor de fundo principal
-- `--texto`: Cor do texto principal
-- `--texto-inverso`: Cor do texto invertido
-- `--destaque`: Cor de destaque
-- `--destaque-inverso`: Cor de destaque invertida
-- `--fundo-card`: Cor de fundo dos cards
+**Tema Claro (padrão):**
+- `--fundo-principal`: #f5f5f5 (Cinza claro)
+- `--texto`: #222222 (Preto suave)
+- `--texto-inverso`: #ffffff (Branco)
+- `--destaque`: #0077ff (Azul)
+- `--destaque-inverso`: #66bbff (Azul claro)
+- `--fundo-card`: #ffffff (Branco)
+
+**Tema Escuro:**
+- `--fundo-principal`: #222222 (Cinza escuro)
+- `--texto`: #e0e0e0 (Cinza claro)
+- `--texto-inverso`: #333333 (Cinza escuro)
+- `--destaque`: #ff5522 (Laranja)
+- `--destaque-inverso`: #a73917 (Laranja escuro)
+- `--fundo-card`: #444444 (Cinza médio)
 
 ## 🤝 Contribuindo
 
