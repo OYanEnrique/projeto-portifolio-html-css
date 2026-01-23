@@ -1,54 +1,42 @@
-# 🚀 Portfólio Pessoal
+# 🚀 Portfólio Pessoal - Yan Enrique
 
-Bem-vindo ao meu portfólio pessoal! Este projeto está sendo desenvolvido como projeto final do curso de HTML5 e CSS3 do Curso em Vídeo, com o objetivo de apresentar meus projetos, habilidades e experiências profissionais de forma moderna e interativa.
+Portfólio profissional de Analista e Cientista de Dados com design moderno, responsivo e tema claro/escuro. Apresenta projetos de análise de dados, Machine Learning e visualizações com foco em UX/UI.
 
-> **Status do Projeto**: 🚧 Em desenvolvimento
+> **Status do Projeto**: ✅ Versão 1.0 - Produção
 
-## ✨ Características Planejadas
+## ✨ Características
 
 - 🎨 **Design Responsivo**: Interface adaptável para todos os dispositivos
 - 🌓 **Tema Claro/Escuro**: Alternância entre temas com persistência usando LocalStorage
-- ✨ **Animações Suaves**: Navegação suave entre seções
-- 🎯 **Interface Moderna**: Design clean e profissional
-- ⚡ **Performance Otimizada**: Carregamento rápido e eficiente
+- 🖼️ **Troca Automática de Imagem**: Foto de perfil muda automaticamente com o tema
+- 📊 **Skills Organizadas por Categoria**: Linguagens, ML/IA, Ferramentas e Soft Skills
+- 🎯 **Projetos Interativos**: Cards clicáveis com links para repositórios no GitHub
+- ⚡ **Performance Otimizada**: Carregamento rápido e navegação suave
 
-## 🔄 Desenvolvimento Atual
+## 🔄 Versão Atual
 
-### Versão 0.2.0 (Janeiro 2026)
-- ✅ Estrutura HTML básica implementada
-- ✅ Arquivo CSS com estilos iniciais
-- ✅ Favicon customizado com estilo SVG
-- ✅ Sistema de variáveis CSS para temas
-- ✅ Menu de navegação responsivo implementado
-- ✅ Estilização do header com design moderno
-- ✅ Efeitos hover e transições suaves nos links
-- ✅ Integração com Font Awesome para ícones sociais
-- ✅ Seção de perfil (ficha) com foto e informações
-- ✅ Links para redes sociais (LinkedIn, GitHub, YouTube, Instagram, Site)
-- ✅ Layout responsivo com Grid CSS
-- ✅ Estilização de cards e elementos de perfil
-- ✅ Seção de detalhes com artigos estruturados
-- ✅ Integração de vídeo responsivo do YouTube
-- ✅ Estrutura para Skills, Formação e Projetos
-- ✅ Ícones do Font Awesome nas seções
-- ✅ Container responsivo para vídeo com aspect-ratio
-- ✅ Sistema de barras de progresso para skills
-- ✅ Hard skills implementadas (HTML5, CSS3, Python, Dart, Excel, Figma, Flutter, SQL, R, Scikit-learn, UX/UI Design)
-- ✅ Soft skills implementadas (Comunicação, Trabalho em Equipe, Resolução de Problemas, Adaptabilidade, Pensamento Crítico, Gestão de Tempo, Liderança, Criatividade)
-- ✅ Ícones personalizados para cada skill
-- ✅ Seção de formação acadêmica e certificações profissionais
-- ✅ Certificados profissionais adicionados (EBAC UX/UI Design, Google UX/UI Design via Coursera, Google Análise de Dados, Microsoft Análise de Dados via LinkedIn Learning)
-- ✅ Menu de navegação com ícones Font Awesome (Home, Skills, Formação, Projetos, Tema)
-- ✅ Navegação simplificada com ícones visuais
-- ✅ Header sticky (fixo no topo) durante a rolagem da página
-- ✅ Navegação funcional com links âncora para seções
-- ✅ **Layout desktop responsivo com sidebar fixa** - Grid de 4 colunas (auto 300px 1fr auto) para telas ≥768px
-- ✅ **Sidebar sticky** - Seção de perfil fica fixa ao rolar a página em desktop
-- ✅ **Tema escuro implementado** - Alternância entre tema claro e escuro com transições suaves
-- ✅ **Sistema de cores para tema escuro** - Paleta otimizada para visualização noturna
-- ✅ **Transições suaves entre temas** - Mudança de cores com animação de 0.2s
-- ✅ **Botão de tema funcional** - Ícone de lua/sol para alternar temas
-- ✅ **Estilização aprimorada do menu** - Links consistentes com classe "link"
+### Versão 1.0 (Janeiro 2026)
+- ✅ Layout responsivo completo com sidebar fixa em desktop
+- ✅ Sistema de tema claro/escuro com persistência
+- ✅ Troca automática de foto de perfil (yan-perfil.png/yan-perfil-dark.png)
+- ✅ Skills organizadas em 4 categorias:
+  - Linguagens de Programação (Python, R, SQL)
+  - Machine Learning & IA (Pandas, Matplotlib, Scikit-learn, PyTorch, TensorFlow, Keras)
+  - Ferramentas & Frameworks (Excel, Figma, UX/UI Design, Looker Studio, Tableau)
+  - Soft Skills (Comunicação, Trabalho em Equipe, Liderança, etc.)
+- ✅ Seção de projetos com 5 projetos de análise de dados:
+  - Análise Exploratória de Dados da Netflix
+  - Vendas de Padaria Coreana
+  - Previsão de Receita de Sorvetes (Machine Learning)
+  - Estudo de Caso Google: Análise Cyclistic
+  - Google Stock Analysis
+- ✅ Cards de projetos clicáveis com links para GitHub
+- ✅ Imagens customizadas para cada projeto (projeto-001 a projeto-005)
+- ✅ Menu de navegação centralizado em mobile
+- ✅ Texto de apresentação otimizado e focado em dados
+- ✅ Outline circular da foto de perfil branco no modo escuro
+- ✅ Formação acadêmica atualizada (Turismo, Ciências Econômicas em andamento)
+- ✅ Certificações profissionais em UX/UI Design e Análise de Dados
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -98,41 +86,60 @@ Sistema de grid avançado que adapta automaticamente o layout para diferentes ta
 ### Sidebar Sticky em Desktop
 Em telas maiores, a seção de perfil permanece fixa no topo durante a rolagem, mantendo informações importantes sempre visíveis.
 
-### Skills Interativas
-Seção de skills com barras de progresso visuais que exibem proficiência em hard skills (tecnologias como HTML5, CSS3, Python, Dart, etc.) e soft skills (Comunicação, Trabalho em Equipe, Liderança, etc.).
+## 💡 Funcionalidades
 
-### Formação Acadêmica e Certificações
-Apresentação da formação acadêmica completa e certificações profissionais obtidas, incluindo:
-- Bacharelados (Turismo - UFRRJ, Ciências Econômicas - UFRRJ em andamento)
-- Certificações em UX/UI Design (EBAC, Google/Coursera)
-- Certificações em Análise de Dados (Google, Microsoft/LinkedIn Learning)
+### Layout Responsivo Avançado
+- **Mobile (<768px)**: Layout em coluna única centralizada (90vw)
+- **Desktop (≥768px)**: Grid de 4 colunas com sidebar fixa (300px) e menu centralizado
 
-### Alternância de Tema Claro/Escuro
-O portfólio possui um botão para alternar entre tema claro e escuro com transições suaves. A preferência do usuário será salva no navegador para futuras visitas (funcionalidade JavaScript em desenvolvimento).
+### Tema Claro/Escuro Inteligente
+- Alternância automática de cores e imagens
+- Foto de perfil adapta-se ao tema selecionado
+- Outline circular branco no modo escuro para melhor contraste
+- Persistência de preferência usando LocalStorage
 
-### Navegação Suave
-Os links de navegação possuem scroll suave, proporcionando uma experiência de usuário mais agradável ao navegar entre as seções.
+### Skills Categorizadas
+Organização profissional das habilidades em 4 categorias com títulos estilizados:
+- **Linguagens de Programação**: Python, R, SQL, Dart
+- **Machine Learning & IA**: Pandas, Matplotlib, Scikit-learn, PyTorch, TensorFlow, Keras
+- **Ferramentas & Frameworks**: Excel, Figma, UX/UI Design, Looker Studio, Tableau
+- **Soft Skills**: 8 competências interpessoais e profissionais
 
-## 🎨 Personalização
+### Projetos Interativos
+Cards de projetos clicáveis que redirecionam para repositórios no GitHub:
+- Análise de dados com Python e R
+- Machine Learning com regressão linear
+- Visualizações em Looker Studio e dashboards interativos
+- Estudos de caso reais (Google Capstone)
 
-### Cores do Tema
-As cores podem ser facilmente personalizadas editando as variáveis CSS no arquivo `style.css`:
+### Navegação Centralizada Mobile
+Menu de navegação se adapta ao dispositivo, ficando centralizado em telas menores para melhor usabilidade.
 
-**Tema Claro (padrão):**
+## 🎨 Paleta de Cores
+
+### Tema Claro (padrão)
 - `--fundo-principal`: #f5f5f5 (Cinza claro)
-- `--texto`: #222222 (Preto suave)
+- `--texto`: #292C33 (Preto suave)
 - `--texto-inverso`: #ffffff (Branco)
-- `--destaque`: #0077ff (Azul)
-- `--destaque-inverso`: #66bbff (Azul claro)
+- `--destaque`: #4B91E2 (Azul vibrante)
+- `--destaque-inverso`: #FF5E7E (Rosa)
 - `--fundo-card`: #ffffff (Branco)
 
-**Tema Escuro:**
+### Tema Escuro
 - `--fundo-principal`: #222222 (Cinza escuro)
 - `--texto`: #e0e0e0 (Cinza claro)
 - `--texto-inverso`: #333333 (Cinza escuro)
-- `--destaque`: #ff5522 (Laranja)
-- `--destaque-inverso`: #a73917 (Laranja escuro)
+- `--destaque`: #FF5E7E (Rosa vibrante)
+- `--destaque-inverso`: #4B91E2 (Azul)
 - `--fundo-card`: #444444 (Cinza médio)
+
+## 📊 Projetos em Destaque
+
+1. **Análise Exploratória da Netflix** - Python, Pandas, Seaborn, Looker Studio
+2. **Vendas de Padaria Coreana** - Análise de 10.840 transações com foco UX/UI
+3. **Previsão de Receita de Sorvetes** - Machine Learning com Regressão Linear
+4. **Google Capstone: Cyclistic** - Análise de 600k+ viagens com R
+5. **Google Stock Analysis** - ETL e engenharia de recursos com Python
 
 ## 🤝 Contribuindo
 
