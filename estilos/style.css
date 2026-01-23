@@ -6,10 +6,10 @@
 
 :root{
   --fundo-principal: #f5f5f5;
-  --texto: #222222;
+  --texto: #292C33;
   --texto-inverso: #ffffff;
-  --destaque: #0077ff;
-  --destaque-inverso: #66bbff;
+  --destaque: #4B91E2;
+  --destaque-inverso: #FF5E7E;
   --fundo-card: #ffffff;
 }
 
@@ -24,8 +24,8 @@ body.escuro {
   --fundo-principal: #222222;
   --texto: #e0e0e0;
   --texto-inverso: #333333;
-  --destaque: #ff5522;
-  --destaque-inverso: #a73917;
+  --destaque: #FF5E7E;
+  --destaque-inverso: #4B91E2;
   --fundo-card: #444444;
 }
 
@@ -88,11 +88,15 @@ section#ficha img.foto{
   margin-bottom: 15px;
 }
 
+/* body.escuro section#ficha img.foto{
+  outline-color: #ffffff;
+} */
+
 section#ficha h1{
   color: var(--destaque);
   margin: 15px 0;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
 }
 
 div#social{
@@ -125,6 +129,18 @@ article{
 article h2{
   color: var(--destaque);
   margin-bottom: 20px;
+}
+
+h3.categoria-skill{
+  color: var(--destaque);
+  margin: 25px 0 15px 0;
+  font-size: 1.2em;
+  border-bottom: 2px solid var(--destaque);
+  padding-bottom: 8px;
+}
+
+h3.categoria-skill:first-of-type{
+  margin-top: 0;
 }
 
 .video-container{
@@ -219,6 +235,8 @@ article h2{
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   transition: border-left-width 0.2s, border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
 }
 #projeto-container .projeto:hover{
   border-color: var(--destaque);
@@ -248,6 +266,11 @@ footer a:hover{
   color: var(--destaque-inverso);
 }
 
+@media screen and (max-width: 767px){
+  header{
+    justify-content: center;
+  }
+}
 
 @media screen and (min-width: 768px){
   main{
