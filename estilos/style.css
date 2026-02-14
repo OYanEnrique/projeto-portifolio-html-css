@@ -94,9 +94,19 @@ section#ficha img.foto{
 
 section#ficha h1{
   color: var(--destaque);
-  margin: 15px 0;
+  margin: 15px 0 5px 0;
   font-size: 1.5em;
   text-align: center;
+}
+
+section#ficha .subtitulo{
+  color: var(--texto);
+  opacity: 0.7;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.5px;
 }
 
 div#social{
